@@ -23,10 +23,9 @@ iedere les) om nieuwe widgets te zoeken en te laten zien dat jij dit kan impleme
 o.a. middels de Flutter YouTube channel.
 
 ## Hoe wordt mijn cijfer berekend?
-Voor iedere opdracht die maakt (en laat afvinken bij de docent) telt mee voor je cijfer. Jij kan
-maximaal een 10 halen voor dit vak. Er zijn 7 lessen waarin je dit kan doen. Loop uiterlijk 15 min
+Voor iedere opdracht die maakt (en laat afvinken bij de docent) krijg jij punten. Loop uiterlijk 15 min
 voor het einde van de les naar de docent om je opdracht te laten zien. Is de tijd om? Dan krijg je
-geen vinkje en krijg je dus geen punten.
+geen vinkje en krijg je dus geen punten. Kijk op OnderwijsOnline voor meer informatie. 
 
 ## Waar wordt op gelet tijdens mijn cijfer?
 Het is natuurlijk de bedoeling dat je docent meet of jij de leerdoelen aan het begin van de les hebt
@@ -38,4 +37,4 @@ o.i.d.
 Ook moet er aan het einde van de cursus (in week 7) wel degelijk een shop gemaakt tot aan de 
 kennis van de lessen. Let op, JOUW shop wordt beoordeeld en niet die jij samen met de docent maakt.
 
-Ook wordt er gekeken of jij de widget of the day goed hebt geimplementeerd.
+Ook wordt er gekeken of jij de widgets of the day goed hebt geimplementeerd.
