@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shop_app/pages/product_detail_page.dart';
 
 class ProductItem extends StatelessWidget {
   final String id;
@@ -22,7 +23,7 @@ class ProductItem extends StatelessWidget {
         backgroundColor: Colors.black54,
         leading: IconButton(
           onPressed: () {},
-          icon: const Icon(Icons.favorite),
+          icon: const Icon(Icons.favorite_outline),
         ),
         trailing: IconButton(
           onPressed: () {},
@@ -31,9 +32,18 @@ class ProductItem extends StatelessWidget {
           ),
         ),
       ),
-      child: Image.network(
-        imageUrl,
-        fit: BoxFit.cover,
+      child: GestureDetector(
+        onTap: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) => ProductDetailPage(title: title),
+            ),
+          );
+        },
+        child: Image.network(
+          imageUrl,
+          fit: BoxFit.cover,
+        ),
       ),
     );
   }
