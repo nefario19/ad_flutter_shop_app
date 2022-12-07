@@ -55,7 +55,7 @@ class _ProductOverviewPageState extends State<ProductOverviewPage> {
         padding: const EdgeInsets.all(10.0),
         child: GridView.builder(
           itemCount: loadedProducts.length,
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
             childAspectRatio: 3 / 2,
             crossAxisSpacing: 10,
