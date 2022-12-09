@@ -1,0 +1,42 @@
+@startuml
+set namespaceSeparator ::
+
+class "shop_app::models::product.dart::Product" {
+  +String id
+  +String title
+  +String description
+  +double price
+  +String imageUrl
+  +bool isFavorite
+}
+
+class "shop_app::main.dart::MyApp" {
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "shop_app::main.dart::MyApp"
+
+class "shop_app::components::product_item.dart::ProductItem" {
+  +String id
+  +String title
+  +String imageUrl
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "shop_app::components::product_item.dart::ProductItem"
+
+class "shop_app::pages::products_overview_page.dart::ProductOverviewPage" {
+  +State<ProductOverviewPage> createState()
+}
+
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "shop_app::pages::products_overview_page.dart::ProductOverviewPage"
+
+class "shop_app::pages::products_overview_page.dart::_ProductOverviewPageState" {
+  +List<Product> loadedProducts
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::State" <|-- "shop_app::pages::products_overview_page.dart::_ProductOverviewPageState"
+
+
+@enduml
