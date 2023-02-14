@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:shop_app/pages/product_detail_page.dart';
 import 'package:shop_app/pages/products_overview_page.dart';
 import 'package:shop_app/providers/products_provider.dart';
 
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
         ),
         home: const ProductOverviewPage(),
+        routes: {ProductDetailPage.routeName: (context) => ProductDetailPage()},
       ),
     );
   }
