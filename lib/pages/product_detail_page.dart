@@ -3,10 +3,6 @@ import 'package:provider/provider.dart';
 import 'package:shop_app/providers/products_provider.dart';
 
 class ProductDetailPage extends StatelessWidget {
-  // final String title;
-
-  // const ProductDetailPage({required this.title});
-
   static const routeName = '/product-detail';
 
   @override
